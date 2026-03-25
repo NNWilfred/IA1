@@ -5,7 +5,7 @@ import seaborn as sns
 from scipy.stats import shapiro
 
 # CHARGEMENT 
-@st.cache_data
+st.cache_data
 def load_data():
     data = pd.read_csv("BeansDataSet.csv")
     data.columns = data.columns.str.strip()
