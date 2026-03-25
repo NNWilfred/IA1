@@ -103,14 +103,6 @@ elif choix == "Interprétation":
     else:
         st.write("Distribution non normale")
 
-#  GITHUB 
-else:
-    st.header("Lien GitHub")
+# Lien GITHUB 
 
-    lien = st.text_input("Coller votre lien GitHub ici :")
-
-    if lien:
-        st.success("Lien enregistré")
-        st.write(lien)
-
-    st.info("")
+    "https://github.com/NNWilfred/IA1.git:"
