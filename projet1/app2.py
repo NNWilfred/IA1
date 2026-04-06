@@ -98,11 +98,11 @@ elif choix == "Interprétation":
     st.subheader("Test de normalité")
     stat, p = shapiro(df["Espresso"])
 
-    if p > 0.05:
+    if p > 0.05:    
         st.write("Distribution normale")
     else:
         st.write("Distribution non normale")
 
 # Lien GITHUB 
-
-    "https://github.com/NNWilfred/IA1.git:"
+st.header("GitHub")
+st.markdown("[Voir le projet sur GitHub](https://github.com/NNWilfred/IA1.git)")
